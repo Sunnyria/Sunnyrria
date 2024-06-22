@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Riize_offical</title>
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="desktop.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p id="demo"></p>
+    <div class="wrap">
+    <header>
+        <h1><img src="image/img_logo.png" title="Urban Project Zero Home"></img></h1>
+        <nav>
+            <button class="nav-button"><img src="image/img_menu.svg"alt=""></button>
+            <ul class="nav-menu">
+                <li><a href="#" title="About Us">Official</a></li>
+                <li><a href="#" title="Major Events">Music</a></li>
+                <li><a href="#" title="Our Projects">Members</a></li>
+                <li><a href="#" title="Our Partners">Travel</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <section>
+        
+        <div class="move_card">
+            <img src="image/IMG_9044.png" alt="">
+            <h3>Impossible</h3>
+        </div>
+        <div class="move_card">
+            <img src="image/IMG_9041.png" alt="">
+            <h3>Honestly</h3>
+        </div>
+        <div class="move_card">
+            <img src="image/IMG_9042.png" alt="">
+            <h3>Boom Bass</h3>
+        </div>
+        <div class="move_card">
+            <img src="image/IMG_9043.png" alt="">
+            <h3>Love 119</h3>
+        </div>
+
+        
+    </section>
+    <div class="container_p">
+        <h1>Chat Room</h1>
+    </div>
+
+    <div class="container">
+        <img src="image/000 (1).png" alt="Avatar" style="width:100%;">
+        <p>Riize took the word "impossible" seriously with their choreography.</p>
+        <p>I love how riize has a lot of music with different genres but still has the same "emotional pop" concept.</p>
+        <span class="time-right">am.11:00</span>
+      </div>
+      
+      <div class="container darker">
+        <img src="image/1111 (1).png" alt="Avatar" class="right" style="width:100%;">
+        <p>K-POPをあまり聴いてなかったのですが、良い意味で2010年くらいの曲っぽさを感じてリピしてます！！！！！！</p>
+        <span class="time-left">am.11:20</span>
+      </div>
+      
+      <div class="container">
+        <img src="image/222 1.png" alt="Avatar" style="width:100%;">
+        <p>라이즈가 대단한게 독자적 이모셔널팝을 추구하면서 다양한 음악장르를 내놓는다는거 .. 이거 신인은 무조건 팬덤 확보하고 대중성 확보한다고 다양한 음악 추구를 잃기 쉬운데 이걸 전부다 해낸다는거.. 솔직히 처음봄 에스엠이 진짜 공들여 내놓은 그룹같음</p>
+        <span class="time-right">am.11:30</span>
+      </div>
+      
+      <div class="container darker">
+        <img src="image/444 1.png" alt="Avatar" class="right" style="width:100%;">
+        <p>私はもともとダンサーのファンですが、難しいHOUSEダンスを取り入れながらアイドルとしても魅せる振り付けが最高すぎます。これを踊りながら歌うなんて…どこまでK-popのレベルは上がり続けるんだ…
+
+        </p>
+        <span class="time-left">am.11:35</span>
+      </div>
+
+    <video autoplay muted loop id="myVideo">
+        <source src="_00002daf7mjs0c60025fm5oepkbkdhb-1-64.mp4" type="video/mp4">
+    </video>
+      
+      <!-- Optional: some overlay text to describe the video -->
+      <div class="content">
+        <h1>Coming Soon</h1> <p>RIIZE 라이즈 'Impossible' MV #RIIZE #라이즈 #RIIZE_Impossible</p>
+        <p>RIIZE's 1st mini album "RIIZING" is out!💥 'Boom Boom Bass' MV    • RIIZE 라이즈 'Boom Boom Bass' MV </p>
+        
+        <!-- Use a button to pause/play the video with JavaScript -->
+        <button id="myBtn" onclick="myFunction()">Pause</button>
+      </div>
+       <script>
+          // Get the video
+          var video = document.getElementById("myVideo");
+        
+          // Get the button
+          var btn = document.getElementById("myBtn");
+        
+          // Pause and play the video, and change the button text
+          function myFunction() {
+          if (video.paused) {
+            video.play();
+            btn.innerHTML = "Pause";
+          } else {
+            video.pause();
+            btn.innerHTML = "Play";
+          }
+          }   
+        </script>
+    
+      
+        
+        <footer>
+          <p>Copyright &copy;℗©2024 SM Entertainment, under exclusive license to RCA Records and UNIVERSAL MUSIC LLC</p>
+        </footer>
+    </div>
+    <script> 
+      let myNav = document.querySelector(".nav-menu"); //在 JS 裡定義下拉選單
+      let myButton = document.querySelector(".nav-button");// 在 JS 裡定義漢堡按鈕
+      myButton.addEventListener("click", function() { //在 myButton 上安裝事件監聽器，監聽有無被點選的動作
+      myNav.classList.toggle("hide"); //如果有被點選，就在 myNav 的 class 清單中，開關 hide 這個 class
+      });
+    </script>
+</body>
+</html>

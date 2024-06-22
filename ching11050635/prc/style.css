@@ -1,0 +1,31 @@
+
+@import url(mobile.css);
+@import url(desktop.css);
+
+:root {
+    --main-color:#D94833;
+    --sub-color:#F1F1F1;
+    --black-color:#000;
+    --dark-color:#737373;
+    --light-color:#000;
+    --white-color:#fff;
+    --main-font:'Roboto Slab', serif;
+    --sub-font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+* {box-sizing: border-box;}
+
+body, h1, h2, h3, p {
+    margin: 5px; padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    color: #D94833;
+    font-family:var(--main-font) ;
+    background-color: var(--light-color);
+}
+
+
+
+
+
+
